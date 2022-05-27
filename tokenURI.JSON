@@ -1,18 +1,7 @@
 {
-    "title": "Asset Metadata",
-    "type": "object",
-    "properties": {
-        "name": {
-            "type": "string",
-            "description": "Identifies the asset to which this NFT represents"
-        },
-        "description": {
-            "type": "string",
-            "description": "Test NFT Description"
-        },
-        "image": {
-            "type": "string",
-            "description": "https://parcae.io/static/img/Cosmos.png"
-        }
-    }
+  "id": 0,
+  "description": "My NFT",
+  "external_url": "URL TO APP PAGE HOLDING NFT DETAILS",
+  "image": "https://parcae.io/static/img/Cosmos.png",
+  "name": "My NFT 0"
 }
