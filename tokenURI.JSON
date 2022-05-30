@@ -1,7 +1,6 @@
 {
-  "id": 0,
+  "tokenId": 0,
   "description": "My NFT",
-  "external_url": "URL TO APP PAGE HOLDING NFT DETAILS",
   "image": "https://parcae.io/static/img/Cosmos.png",
   "name": "My NFT 0"
 }
