@@ -1,6 +1,9 @@
 {
-  "name": "My NFT 0",
-  "tokenId": 0,
-  "description": "My NFT",
-  "image": "https://parcae.io/static/img/Cosmos.png"
+  "name": "Theseus",
+  "description": "King of Athens - Theseus",
+  "image": "ipfs://<hash>/<name>.png",
+  "attributes": [
+                {"trait_type": "rank",
+                  "value": 1}
+                ]
 }
