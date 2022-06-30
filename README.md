@@ -4,7 +4,7 @@ This guide is meant for those interested in a complete deployment of ERC721. It 
 
 # Preparation
 ## TokenURI and JSON
-NFT's (or ERC721 tokens) are stored as json files. Each NFT must possess it's own json file. Due to a need to protect the end user from a rug pull, we will store these files in the IPFS filesystem. An example file can be located under "tokenURI.json" from the site. 
+NFT's (or ERC721 tokens) are stored as json files. Each NFT must possess it's own json file. Due to a need to protect the end user from a rug pull, we will store these files in the IPFS filesystem. An example file can be located under "token.json" from the site. 
 
 ```python
 {
