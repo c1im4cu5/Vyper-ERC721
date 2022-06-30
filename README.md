@@ -17,6 +17,7 @@ NFT's (or ERC721 tokens) are stored as json files. Each NFT must possess it's ow
                 ]
 }
 ```
+When uploading these files to IPFS, you must upload them in a folder! Do not upload the individual files to IPFS. While this is certainly possible, we'll need to reference the individual "json" file as seen in the script above. Uploading an entire folder (even with one file) is required.
 
 ## IPFS
 If you have not acquinted yourself ipfs, please take the time to do so. In a quick summation, ipfs (interplanetary file system) will give us a hash of the document/file/folder that is provided to the filesystem. If the item is altered, it receives a different hash.
