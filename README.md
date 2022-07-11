@@ -25,4 +25,22 @@ If you have not acquinted yourself with ipfs, please take the time to do so. In 
 Pinata will allow you to upload documents to the ipfs filesystem. Here is a link:
 <a href="https://www.pinata.cloud/" target="_blank">Pinata</a>
 
-Upon account generation, you will be able to upload the directorty. 
+Upon account generation, you will be able to upload the directory.
+
+## Compiling
+At the time of this writing, deploying a Vyper contract is problematic. Users should run the file labeled "server.py". While the python server is running, compile on Remix via localhost:8080/compile. After compiling, you can shut down the server.
+
+## Deployment
+You'll need to populate the name and token information. A base url can be applied (and will need to be applied to use the contract.py file). The base url should link to the folder that holds all of your json files. Example: ipfs://<hash of folder>/
+
+Here is a Deployed Contract on AVAX:
+0x9a011056BA0E39e312B00D84C057a8Ffd2BfE21d
+
+Here is a link to the minted tokens:
+<a href="https://nftrade.com/users/avalanche/0x7d8b6fb26c78ab7e46918c2707bf0016a53dcb26?search=&sort=listed_desc" target="_blank">nftrade.com</a>
+
+Here is a link to a Flask API that queries IPFS and supports the mint:
+<a href="https://parcae.io/nftSearch" target="_blank">Parcae.io</a>
+
+## Contribing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you'd like to added/altered.
